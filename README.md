@@ -2,7 +2,6 @@
 
 **DeepPATT** (Deep learning-based Pol II pausing And Transcription Termination model) is an explainable deep learning framework designed to predict RNA Polymerase II pausing and transcription termination dynamics from adjacent DNA sequence input.
 
----
 
 ## Model Structrue 
 
@@ -11,8 +10,6 @@
 - Accepts one-hot encoded DNA sequences as input.
 - Uses an ensemble-based deep learning models to predict Pol II pausing probability.
 - Outputs per-nucleotide probabilities of RNA Polymerase II pausing at transcription termination sites.
-
----
 
 ## Getting Started
 
