@@ -39,16 +39,14 @@
 
 This will save the predicted Pol II pausing probability in transcription termination as `prediction.csv` in the specified output directory.
 
----
 
 ## License
 
 This project is licensed under the MIT License.
 
----
 
 ## Contact
 
 For questions, suggestions, or issues, please open an issue on GitHub:
 https://github.com/ShengShawnWang/deepPATT/issues
-# deepPATT
+
