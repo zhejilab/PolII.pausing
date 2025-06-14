@@ -47,7 +47,7 @@
 
 5. Run the HMM training and prediction:
    ```bash
-   python deepPATT.py -a ./example/X.csv -m ./model -o ./example/
+   python deepPATT.py -a ./example/X.csv -m ./path/to/model -o ./example/
    ```
 
 This will save the predicted Pol II pausing probability in transcription termination as `prediction.csv` in the specified output directory.
