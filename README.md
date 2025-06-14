@@ -20,7 +20,20 @@
    cd deepPATT
    ```
 
-2. Set up your environment:
+2. Download the pretrained model files from Hugging Face Hub:
+   
+   You can download the model files manually from:
+   https://huggingface.co/ShengShawnWang/deepPATT/tree/main/model
+   
+   Or programmatically via Python:
+
+   ```python
+   from huggingface_hub import snapshot_download
+
+   # Download all model files into a local folder named 'model'
+   snapshot_download(repo_id="ShengShawnWang/deepPATT", repo_type="model", local_dir="./model")
+
+3. Set up your environment:
    The model was implemented using Python 3.8.13. It is recommended to use a virtual environment to avoid dependency conflicts.
    ```bash
    python -m venv venv
@@ -28,11 +41,11 @@
    pip install -r requirements.txt
    ```
 
-3. Prepare your input data:
+4. Prepare your input data:
    - A one-hot encoded CSV file containing 401-nt window sequences centered on the nucleotide positions of interest.
 
 
-4. Run the HMM training and prediction:
+5. Run the HMM training and prediction:
    ```bash
    python deepPATT.py -a ./example/X.csv -m ./model -o ./example/
    ```
