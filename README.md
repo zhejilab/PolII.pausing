@@ -5,7 +5,7 @@
 
 ## Model Structrue 
 
-![Model Structrue](figs/Schema.png)
+![Model Structrue](model_schema.png)
 
 - Accepts one-hot encoded DNA sequences as input.
 - Uses an ensemble-based deep learning models to predict Pol II pausing probability.
