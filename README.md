@@ -24,6 +24,7 @@
    
    You can download the model files manually from:
    Termination model: https://huggingface.co/ShengShawnWang/deepPATT/tree/main/model
+   
    Pormoter model: https://huggingface.co/ShengShawnWang/PausingPromoter/tree/main/model
    
    Or programmatically via Python:
