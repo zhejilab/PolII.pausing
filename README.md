@@ -1,6 +1,6 @@
-# DeepPATT
+# PausingTerminator and PausingPromoter
 
-**DeepPATT** (Deep learning-based Pol II pausing And Transcription Termination model) is an explainable deep learning framework designed to predict RNA Polymerase II pausing and transcription termination dynamics from adjacent DNA sequence input.
+**PausingTerminator and PausingPromoter** are explainable deep learning frameworks designed to predict RNA Polymerase II pausing in transcription termination and promoter-proximal regions from adjacent DNA sequence input.
 
 
 ## Model Structrue 
